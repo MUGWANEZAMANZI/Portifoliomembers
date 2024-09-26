@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Two Sections Page with Header and Footer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 0.01gitpx;
+      }
+
+      .container {
+        display: flex;
+        height: calc(100vh - 160px); /* Adjusted for header and footer */
+        flex-wrap: wrap; /* To ensure mobile responsiveness */
+      }
+
+      .left-section {
+        flex: 0.5;
+        background-color: #f0f0f0;
+        padding: 20px;
+        box-sizing: border-box; /* Ensures padding doesn't affect layout */
+        min-width: 100px; /* Set a minimum width for small screens */
+      }
+
+      .right-section {
+        flex: 2;
+        background-color: #d3d3d3;
+        padding: 20px;
+        box-sizing: border-box;
+        min-width: 300px;
+      }
+
+      .footer {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto; /* Ensures responsive images */
+        border-radius: 50%; /* Rounds the image if desired */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Header Section</h1>
+    </div>
+
+    <div class="container">
+      <div class="left-section">
+        <img src="photo ps.jpg" alt="Vedaste MUGABO Photo" />
+        <p>
+          <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vedaste MUGABO</strong>
+        </p>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data Scientist</h3>
+      </div>
+      <div class="right-section">
+        <h2>About Me</h2>
+        <p>
+          I am Vedaste Mugabo, a dynamic and multi-talented individual with a
+          strong foundation in computer science, healthcare, and technology. As
+          a second-year medical student at the University of Rwanda, I am
+          passionate about healthcare while also leveraging my expertise in
+          software testing, data engineering, and digital consulting. With over
+          5 years of experience in software testing and a proven track record as
+          a Digital Consultant at Climax Technology Ltd, I have honed my skills
+          in delivering high-quality digital solutions.
+        </p>
+        <p>
+          I hold multiple certifications, including AI Career Essentials and
+          Virtual Assistant from ALX, as well as Data Engineering from ICT
+          Chambers. I am also involved in community service, volunteering with
+          Tubeheza to help provide shelter, and participating in local
+          initiatives like Umuganda and Itorero. Fluent in English, Kinyarwanda,
+          and Kirundi, I offer language services such as translation,
+          interpretation, and content creation.
+        </p>
+        <p>
+          My approach to work is driven by a passion for continuous learning and
+          a dedication to achieving excellence in everything I do.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>ALL RIGHTS RESERVED @2024</p>
+    </div>
+  </body>
+</html>
