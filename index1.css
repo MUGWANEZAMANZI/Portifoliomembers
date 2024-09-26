@@ -1,0 +1,51 @@
+#cont{
+    padding: 10px;
+}
+#container{
+    top: 5%;
+    bottom: 95%;
+}
+#header{
+    top:0%;
+    height: 5%;
+    width: 100%;
+    background-color: #d9d9d9;
+    position: fixed;
+}
+#container_sub1{
+    display: block;
+    position: fixed;
+    top: 6%;
+    width: 35%;
+    height: 85%;
+    background-color: #d9d9d9;
+    padding-left: 100px;
+    img{border-radius: 50%; }
+}
+#skills{
+    padding: 100px;
+    position: fixed;
+    left:100px;
+    top:5%;
+    height:80%;
+    left: 35%;
+    width: 80%;
+    background-color: #d9d9d9;
+    li{ font-size: 50px;}
+    
+    
+    
+}
+#footer{
+    top:90%;
+    left:45%;
+    width: auto;
+    background: #d9d9d9;
+    position: fixed;
+    padding: 10px;
+    a{ text-align: center;}
+    img{ width: 40px; height: 40px;}
+}
+body{
+    background-color: #d9d9d9;
+}
